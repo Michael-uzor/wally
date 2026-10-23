@@ -12,7 +12,7 @@ test('production identity and social metadata are present', () => {
   for (const name of ['description', 'theme-color', 'og:title', 'og:description', 'og:type', 'twitter:card']) {
     assert.ok(html.includes(`="${name}"`), `Missing metadata: ${name}`);
   }
-  assert.match(html, /rel="canonical" href="https:\/\/wally-nine\.vercel\.app\/"/);
+  assert.match(html, /rel="canonical" href="https:\/\/wallyrobinhood\.vercel\.app\/"/);
   assert.doesNotMatch(html, /vite\.svg|Vite \+ React|noindex|localhost|127\.0\.0\.1/);
 });
 

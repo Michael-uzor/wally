@@ -42,6 +42,6 @@ Run `npm run build` followed by `npm test`. Preview with `npm run preview`. The 
 
 ## Live project
 
-Production: https://wally-nine.vercel.app/
+Production: https://wallyrobinhood.vercel.app/
 
 Source: https://github.com/Michael-uzor/wally (`main`). Vercel project `wally` is connected to this repository; pushes to main deploy to production. The other account projects are separate and unchanged.
