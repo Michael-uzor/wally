@@ -39,3 +39,9 @@ The selectively registered, lazy 3D scene uses shared GPU resources and pauses o
 ## Production verification and deployment
 
 Run `npm run build` followed by `npm test`. Preview with `npm run preview`. The deployment configuration declares Vite, reproducible `npm ci`, `npm run build`, and `dist/`. No environment variables are required. The repository must be linked to the intended existing GitHub remote and Vercel project before publishing. See `docs/production-audit.md` for the audit findings and verification limits.
+
+## Live project
+
+Production: https://wally-nine.vercel.app/
+
+Source: https://github.com/Michael-uzor/wally (`main`). Vercel project `wally` is connected to this repository; pushes to main deploy to production. The other account projects are separate and unchanged.

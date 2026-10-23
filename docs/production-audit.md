@@ -37,3 +37,11 @@ GitHub and Vercel authentication are available, but this checkout has no remote 
 ## Release state
 
 All intended files were staged explicitly and reviewed, including a staged credential-pattern scan with zero findings. Dependencies already matched the lockfile; no application dependency installation was needed. The Vercel CLI was available through npx and authenticated, but no Wally project was selected, created, or deployed. A local production-preparation commit can be made on main using the authenticated account’s GitHub noreply author identity. GitHub push and production verification must wait for the destination clarification.
+
+## New-project authorization and deployment
+
+The owner subsequently authorized creating new projects named wally. Created https://github.com/Michael-uzor/wally and Vercel project wally in michael-uzors-projects. No changes were made to assassin-website or tokenstudio. The main branch was pushed; Vercel's GitHub integration was connected and verified as Michael-uzor/wally with production branch main. Dashboard settings are Vite, npm ci, npm run build, dist output, repository root, Node 24.x. No project environment variables are configured or required.
+
+The first deployment reached READY and Vercel automatically assigned it to production at https://wally-nine.vercel.app, publicly returning HTTP 200. This verified URL is now the canonical and Open Graph URL. No social-sharing image was fabricated. The CLI created an ignored local OIDC environment file while linking; its contents were never displayed or committed. Added explicit .vercelignore exclusions so environment files, keys, local databases, dependencies, and local builds are not uploaded.
+
+The earlier publishing-blocker section is retained as the initial audit record, superseded by this authorization and verified project connection. The final deployment will be verified against the main commit after these release-metadata changes are pushed; the chat handoff records the final commit and live checks.
